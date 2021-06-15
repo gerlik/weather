@@ -1,6 +1,7 @@
 # weather
 
 Weather forecast web application built with Vue.js. Weather data from [weatherstack](https://weatherstack.com).
+Currently only works with one city, Tallinn.
 
 ## Project setup
 
@@ -15,6 +16,7 @@ npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```

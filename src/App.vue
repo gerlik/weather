@@ -9,19 +9,25 @@
 
 <style>
 * {
-  background-color: lightblue;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  color: aliceblue;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: rgb(255, 164, 164);
+  background: linear-gradient(0deg, rgba(255, 164, 164, 1) 0%, rgba(84, 132, 255, 1) 100%);
 }
 
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   margin-top: 60px;
-}
 
-a {
-  color: #153B50;
 }
 
 .nav {
@@ -33,6 +39,10 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 </style>
