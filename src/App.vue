@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <!--    <img alt="Vue logo" src="./assets/logo.png">-->
-    <Main msg="TLN"/>
+    <div class="nav">
+      <router-link class="nav" to="/">Current</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
 
-<script>
-import Main from './components/Main.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Main
-  }
-}
-</script>
-
 <style>
-#app {
+* {
+  background-color: lightblue;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+#app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
+
+a {
+  color: #153B50;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 </style>

@@ -1,6 +1,6 @@
 # weather
 
-Weather forecast web application built with Vue.js.
+Weather forecast web application built with Vue.js. Weather data from [weatherstack](https://weatherstack.com).
 
 ## Project setup
 
