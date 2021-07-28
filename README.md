@@ -1,7 +1,9 @@
 # weather
 
-Weather forecast web application built with Vue.js. Weather data from [weatherstack](https://weatherstack.com).
-Currently only works with one city, Tallinn.
+Weather forecast web application built with Vue.js. Shows current weather ~~(and up to 3-day forecast for now)~~.
+Weather data from [weatherstack](https://weatherstack.com). Currently only works with one city, Tallinn.
+
+![Screenshot of the application](screenshot_1.PNG)
 
 ## Project setup
 
